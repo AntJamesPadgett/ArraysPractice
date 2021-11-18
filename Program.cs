@@ -77,22 +77,15 @@ namespace ArraysPractice
             //}
             //Console.ReadLine();
 
-            string[] pizza = new string[6];
 
-            pizza[0] = "Cheese";
-            pizza[1] = "Extra Cheese";
-            pizza[2] = "Pepperoni";
-            pizza[3] = "Ham";
-            pizza[4] = "Pineapple";
-            pizza[5] = "Ground Beef";
+            var candyBag = new string[] { "Snickers", "Kitkat", "Twix" };
 
-            for (int i = 0; i < pizza.Length; i++)
+            foreach (var item in candyBag)
             {
-                Console.WriteLine(pizza[i]);
-
-              
+                Console.WriteLine(item);
             }
-            Console.ReadLine();
+             
+            
         }
     }
 }
